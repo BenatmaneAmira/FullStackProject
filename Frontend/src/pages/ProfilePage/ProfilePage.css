@@ -1,0 +1,61 @@
+.profile-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-item {
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .book-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-image {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .container {
+    margin-top: 100px; /* Ajuste cette valeur selon la hauteur de ton Header */
+    padding: 20px;
+  }
+  
+  /* For FilterBar or ProfilePage titles */
+  .profile-page {
+    margin-top: 40px; /* Espace pour le header */
+  }

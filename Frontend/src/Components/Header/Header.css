@@ -1,0 +1,126 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Choisis une couleur qui te plaît */
+    color: white;
+    padding: 0 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 4px solid #d81b60;
+    text-align: center;
+    z-index: 1000; /* Assure-toi que le Header reste au-dessus des autres éléments */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optionnel: ombre pour donner de la profondeur */
+  }
+  .disabled-link {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+ 
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px; 
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .header-image {
+    width: 40px;
+    height: 40px;
+  }
+  
+  a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Ajouter des styles similaires pour le bouton */
+  .login-button {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0;
+    font-weight: bold;
+   
+  }
+  
+  .login-button:hover {
+    color: #0056b3;
+  }
+  .logout-button {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0;
+    font-weight: bold;
+  }
+  .error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .home-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-icon  {
+    width: 25px; /* Ajuste la taille selon tes besoins */
+    height: 25px;
+    margin-right: 8px; /* Espace entre l'image et le texte */
+  }
+  .login-icon {
+    width: 25px;  /* Adjust size as needed */
+    height: 25px;
+    margin-right: 8px;  /* Space between icon and "Login" text */
+  }
+  .book-icon {
+    width: 25px;  /* Adjust size as needed */
+    height: 25px;
+    margin-right: 8px;  /* Space between icon and text */
+  }
+  .profile-link {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .dashboard-link {
+    display: flex;
+    align-items: center;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    margin: 20px auto; /* Center the navigation links */
+}
+
+/* Optional: Add more spacing between each link */
+.nav-links a, .nav-links button {
+    margin: 0 25px;
+}

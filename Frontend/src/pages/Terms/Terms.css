@@ -1,0 +1,24 @@
+.terms-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 40px;
+  }
+  
+  .terms-page h1 {
+    color: #d81b60;
+    text-align: center;
+  }
+  
+  .terms-page p, h2 {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .terms-page h2 {
+    margin-top: 20px;
+    color: #333;
+  }
+  

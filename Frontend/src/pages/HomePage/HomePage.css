@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #e0f7fa;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.header-home {
+    width: 100%;
+    background-color: white;
+    border-top: 4px solid #d81b60;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 0 50px;
+}
+
+.header-home-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+    padding: 15px 0;
+}
+
+.header-home-image {
+    width: 60px;
+    height: auto;
+    margin-right: 10px; /* Space between the image and the logo text */
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Align the image and text on the same row */
+    margin-right: auto;
+}
+
+.sign-in {
+    font-size: 16px;
+    cursor: pointer;
+    color: #d81b60;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Ensures that "Sign In" stays at the far right */
+    text-decoration: none;
+}
+
+/* Global container for side images and main content */
+.homepage {
+    display: flex;
+    justify-content: space-between; /* Distribute space between side and main content */
+    padding-top: 80px; /* Compensate for fixed header height */
+}
+
+/* Side containers for book images */
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;  /* Adjust width based on your design */
+    padding: 20px;
+}
+
+.side img {
+    width: 100%; /* Make the images responsive */
+    height: auto;
+    margin-bottom: 20px; /* Add space between the images */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.side img:hover {
+    transform: scale(1.1);
+  }
+.left {
+    margin-right: 20px;
+}
+
+.right {
+    margin-left: 20px;
+}
+
+/* Main content styles */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;  /* Remaining space for the main content */
+    text-align: center;
+    padding: 60px;
+    font-size: 1.5em;
+    gap: 20px;
+}
+
+.main-content h1, .main-content h2 {
+    font-size: 2.5em; /* Enlarge headings */
+    margin-bottom: 20px; /* Add space below headings */
+}
+
+.main-content p {
+    font-size: 1.2em; /* Increase paragraph size */
+    max-width: 800px; /* Set a maximum width for text */
+    line-height: 1.6em; /* Increase line spacing for readability */
+}
+
+button {
+    padding: 1em 2em; /* Increase button size */
+    font-size: 1.2em; /* Increase button text size */
+}

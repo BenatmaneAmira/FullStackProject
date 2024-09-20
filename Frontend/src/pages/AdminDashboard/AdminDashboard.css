@@ -1,0 +1,141 @@
+.admin-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.book-list-dash {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Adjust the minimum width for better spacing */
+    gap: 20px;
+    max-width: 1200px; /* Adjusted for broader width */
+    margin: 0 auto;
+    padding: 20px; /* More padding for overall spacing */
+}
+
+.book-item-dash {
+    text-align: center;
+  width: 150px;
+  margin: 10px;
+  background-color: #f9f9f9; /* Adding a light background color */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slightly bigger shadow */
+  transition: transform 0.2s ease-in-out; /* Adding hover effect */
+}
+.book-item-dash:hover {
+    transform: scale(1.05); /* Slightly enlarges the item on hover */
+  }
+.book-image-dash {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Keep the original aspect ratio of the image */
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 80%; /* Making buttons a bit narrower for aesthetics */
+    padding: 8px;
+    margin-top: 5px; /* Space above the button */
+    font-size: 16px; /* Larger font size for better readability */
+}
+
+@media (max-width: 768px) {
+    .book-list-dash {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* More responsive adjustments */
+    }
+}
+
+/* Button styles */
+.edit-button {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    background-color: #4CAF50; /* Green background for edit */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.delete-button {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    background-color: #f44336; /* Red background for delete */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #e53935; /* Darker red on hover */
+}
+
+.button-edit-delete {
+    width: 100%;
+}
+
+.button-edit-delete button:active {
+    transform: scale(0.98);
+}
+
+
+/* Responsive styling */
+
+@media (max-width: 480px) {
+    .book-list-dash {
+        grid-template-columns: 1fr; /* 1 column for very small screens */
+    }
+}
+.filter-bar-container {
+    display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+    align-items: center; /* Aligne verticalement les éléments au centre */
+    justify-content: space-between; /* Espace entre la barre de filtres et le bouton */
+  }
+  
+  .filter-bar {
+    flex: 1; /* Laisse la FilterBar prendre toute la place disponible */
+    margin-right: 10px; /* Ajoute un espace entre la FilterBar et le bouton */
+  }
+  
+  .add-book-button {
+    background-color: #000; /* Couleur du bouton */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 150px; 
+  }
+  .user-management-button {
+    margin-left: 10px;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px; 
+    border-radius: 15px;
+  }
+  
+  .user-management-button:hover {
+    background-color: #0056b3;
+  }
+  

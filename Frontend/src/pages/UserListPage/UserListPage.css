@@ -1,0 +1,67 @@
+.dashboard {
+    padding: 20px;
+    margin: 20px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #e0f7fa; /* Utilisation du fond de body */
+  }
+  
+  .dashboard-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    background-color: #ffffff; 
+  }
+  
+  
+  
+  .dashboard-card:hover {
+    background-color: #b2ebf2; /* Légère variation au survol */
+  }
+  
+  
+  
+  .dashboard-delete-btn {
+    width: 100%; /* Rendre le bouton plein largeur */
+    background-color:#d81b60; /* Harmoniser avec la modal login */
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .dashboard-delete-btn:hover,
+  .dashboard-edit-btn:hover {
+    border-color: #646cff; /* Effet au survol pour les boutons */
+    opacity: 0.9;
+  }
+  
+  .filter-bar-two {
+    margin-top: 120px;
+    padding: 10px;
+    width: 200px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-family: "Poppins", sans-serif;
+  }
+  .filter-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .filter-button:hover {
+    background-color: #0056b3;
+  }
+  
